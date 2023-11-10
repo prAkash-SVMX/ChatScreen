@@ -1,6 +1,6 @@
 {
   "name": "chatscreen",
-  "version": "1.0.0",
+  "version": "1.0.7",
   "description": "this is chatscreen which hold header,list and inputbox and render the data shared to it",
   "main": "src/ChatComponent.js",
   "scripts": {
