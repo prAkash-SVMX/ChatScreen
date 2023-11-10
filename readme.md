@@ -7,7 +7,7 @@ A customizable and easy-to-use React Native chat component for incorporating cha
 Install the package using npm:
 
 ```bash
-npm install react-native-chat-component
+npm install chatscreen
 
 
 Usage
