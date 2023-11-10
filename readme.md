@@ -29,6 +29,9 @@ class YourChatScreen extends Component {
 
 export default YourChatScreen;
 ```
+## UI
+
+![simulator_screenshot_BADBC3ED-2EF1-41FB-B40E-D9661C083822](https://github.com/prAkash-SVMX/ChatScreen/assets/32197228/52f9f717-568b-4031-a1a0-4c203cc91f17)
 
 ## Features
 Fully customizable UI
