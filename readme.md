@@ -8,11 +8,11 @@ Install the package using npm:
 
 ```bash
 npm install chatscreen
+```
 
-
-Usage
+## Usage
 Import the ChatComponent into your React Native application and use it as follows:
-
+```bash
 import React, { Component } from 'react';
 import ChatComponent from 'chatscreen';
 
