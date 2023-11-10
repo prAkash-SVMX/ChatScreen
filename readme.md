@@ -28,7 +28,7 @@ class YourChatScreen extends Component {
 }
 
 export default YourChatScreen;
-
+```
 
 Features
 Fully customizable UI
@@ -37,20 +37,23 @@ Modal for a seamless chat experience
 Keyboard avoiding view for a smooth user experience
 
 
-Props
+###Props
 The ChatComponent accepts the following props:
 
 headerBackgroundColor: Background color for the header.
 headerTintColor: Text color for the header.
 Example:
+```bash
 <ChatComponent
   headerBackgroundColor="#93cfdb"
   headerTintColor="#ffffff"
 />
+```
 
-Contributing
+###Contributing
 We welcome contributions! If you find any issues or have suggestions for improvements, please feel free to open an issue or create a pull request.
 
-Acknowledgments
+###Acknowledgments
+
 Special thanks to the open-source community for their contributions and inspiration.
 
