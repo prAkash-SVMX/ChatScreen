@@ -42,18 +42,34 @@ The ChatComponent accepts the following props:
 
 headerBackgroundColor: Background color for the header.
 headerTintColor: Text color for the header.
+headerText: Text to display in the header.
+chatViewColor: color of the chat text containr 
+
 Example:
 ```bash
 <ChatComponent
   headerBackgroundColor="#93cfdb"
   headerTintColor="#ffffff"
+  headerText="prakash"
+  chatViewColor="green"
 />
 ```
 
 ## Contributing
+
 We welcome contributions! If you find any issues or have suggestions for improvements, please feel free to open an issue or create a pull request.
 
-###Acknowledgments
+## Acknowledgments
 
 Special thanks to the open-source community for their contributions and inspiration.
+
+## Troubleshooting
+
+You might face an  error saying  
+"Invariant Violation: requireNativeComponent: "RNSVGPath" was not found in the UIManager"
+to solve this you can run this 
+```bash
+npm install react-native-svg
+```
+
 
