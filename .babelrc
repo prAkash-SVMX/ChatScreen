@@ -1,0 +1,25 @@
+{
+    "plugins": [
+      "@babel/plugin-transform-flow-strip-types",
+      "@babel/plugin-syntax-dynamic-import",
+      "@babel/plugin-syntax-import-meta",
+      [
+        "@babel/plugin-proposal-class-properties",
+        {
+          "loose": false
+        }
+      ],
+      "@babel/plugin-proposal-json-strings"
+    ],
+    "presets": [
+      [
+        "@babel/preset-env",
+        {
+          // Your app is expected to provide builtins
+          "useBuiltIns": false,
+        }
+      ],
+      "@babel/react"
+    ],
+    "comments": false
+  }
