@@ -20,6 +20,7 @@
         }
       ],
       "@babel/react"
+
     ],
     "comments": false
   }
