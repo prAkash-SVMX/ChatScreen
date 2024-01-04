@@ -18,6 +18,8 @@ class ChatComponent extends Component {
 
     // Initial state of the component
     this.state = {
+
+      
       textInputHeight: 40,
       inputValue: "",
       refreshing: false,
